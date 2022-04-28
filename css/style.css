@@ -1,0 +1,300 @@
+@font-face {
+    font-family:Quite Chocolatey;
+    src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+    font-family:PTSerif-Regular;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+    font-family:couture-bld;
+    src: url(../fonts/couture-bld.otf);
+}
+*{
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    
+
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid #130e27;
+}
+.header{
+    background-image:
+    linear-gradient(to top, rgba(221,34,17,0.87), rgba(221,34,17,0.87)),
+  url(../images/head-img.png);
+    text-align: left;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.logo  {
+    position: relative;
+    font-size: 50px;
+    font-family: "Quite Chocolatey";
+    color: rgb( 255, 255, 255 );
+    line-height: 0.367;
+    text-align: center;
+    margin-left: 85px;
+}
+.logo a {
+    color: rgb( 255, 255, 255 );
+    text-decoration: none;
+}
+.nav {
+    display:flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+    margin-right: 85px;
+}
+.nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    line-height: 1.222;
+}
+
+.nav li a:hover{
+    border-radius: 5px;
+    background-color: rgb( 19, 14, 39 );
+    border-radius: 5px;
+    
+}
+.header_context {
+    max-width: 550px;
+    margin-top: 95px;
+    margin-left:100px;
+    padding-bottom: 150px;
+
+}
+.title {
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: rgb( 19, 14, 39 );
+    font-weight: bold;
+    line-height: 0.889;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 45px;  
+    margin-top: 0;
+}
+.title>#white{
+    color:#fff;
+}
+.title-text {
+        font-size: 20px;
+        font-family: PTSerif-Regular;
+        color: rgb( 255, 255, 255 );
+        line-height: 1.5; 
+        margin: 0; 
+}
+.services{
+    background-color: #fff;
+    margin: 0;
+}
+.services-text h2{
+    margin: 0;
+    font-size: 50px;
+    font-family: "couture-bld";
+    color: rgb( 198, 35, 20 );
+    font-weight: bold;
+    line-height: 1.6;  
+    padding-top: 45px;
+    padding-bottom: 95px;
+    margin-left: 100px;
+    text-transform: uppercase;
+
+}
+.services-text h2 spam{
+    color: rgb( 19, 14, 39 );
+}
+.services-items{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 995px;
+    margin: 0 auto;
+}
+.item{
+    max-width: 180px;
+
+} 
+.item p {
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    color: rgb( 22, 22, 22 );
+    line-height: 1.4;  
+    padding-bottom: 70px;
+    
+ }
+.item img{
+    max-width: 180px;
+    margin: 0 auto;
+    height: 155px;
+    margin-bottom: 45px;
+}
+.our-story {
+    background-color: #130e27;
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.our-story-text {
+        font-size: 20px;
+        font-family: PTSerif-Regular;
+        color: rgb( 255, 255, 255 );
+        line-height: 1.4;
+        margin-top: 40px;
+        margin-left: 100px;
+        
+        
+        max-width: 650px;
+        text-align: left;
+
+}
+.ur-story-button-div{
+    margin: auto 105px;
+
+} 
+.our-story-button {
+        border-radius: 5px;
+        background-color: rgb( 198, 35, 20 );
+        font-size: 22px;
+        font-family: "Montserrat";
+        color: rgb( 255, 255, 255 );
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 25px 65px;
+        margin: 30px auto;
+        justify-content: center;
+    
+}
+
+.our-story-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb( 198, 35, 20 );
+    font-weight: 800;
+    transition: 0.5s;
+}
+.pricing {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb( 239, 239, 239 );
+    padding-bottom: 60px;
+}
+.pricing-h {
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb( 19, 14, 39 );
+    font-weight: bold;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding: 60px;
+    margin: 0 auto;
+ 
+}
+.pricing-cards {
+    margin: 0 auto;
+    max-width: 995px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.pricing-cards-item {
+        border-radius: 5px;
+        background-color: rgb( 255, 255, 255 );
+        width: 320px;
+        padding-bottom: 30px;
+        
+}
+.item-text {
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    color: rgb( 22, 22, 22 );
+    line-height: 1.4;
+    padding-bottom: 30px;
+}
+.pricing-cards-item .main{
+    font-size: 22px;
+    padding-bottom: 0px;
+}
+.item-price {
+        font-size: 60px;
+        font-family: "Montserrat";
+        color: rgb( 198, 35, 20 );
+        font-weight: bold;
+        margin: 0 auto;
+}
+.item-button {
+        font-size: 22px;
+        font-family: "Montserrat";
+        color: rgb( 255, 255, 255 );
+        border-radius: 4px;
+        background-color: rgb( 19, 14, 39 );
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 15px 60px;
+        font-weight: 600;
+        
+}
+.pricing-cards-item .try{
+    padding: 15px 80px;
+}
+.item-button:hover {
+
+    background-color: rgb( 198, 35, 20 );
+
+}
+.footer {
+        background-color: rgb( 19, 14, 39 );
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 185px;
+}
+.footer-text {
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    color: rgb( 255, 255, 255 );
+    margin: auto 80px;
+}
+.footer-text a {
+    text-decoration: none;
+    color: rgb( 198, 35, 20 );
+    font-weight: 600;
+    
+}
+.footer-logo h1{
+    font-size: 60px;
+    font-family: "Quite Chocolatey";
+    color: rgb( 198, 35, 20 );
+    margin: 0 105px;
+}
+.footer-logo  {
+        margin-top: 60px;
+}
+
+
+
+
+
+  
+  
+  
